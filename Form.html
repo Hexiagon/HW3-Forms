@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>DEV 209 HW3-Forms</title>
+        <link rel="stylesheet" type="text/css" href="form.css">
+    </head>
+    <body>
+        <form name="mainFrom" onsubmit="return false">
+        <fieldset id="First_fieldset">
+            <legend>Welcome to Forms Test Web Site</legend>
+            <button id="newuser">Click for New User</button>
+            <button id="existinguser">Click for Existing User</button>
+        </fieldset>
+        <fieldset id="Second_fieldset">
+            <legend>New User</legend>
+            <label for="username1">UserName:</label>
+            <input type="text" id="username1" name="username1">
+            <label for="password1">Password:</label>
+            <input type="text" id="password1" name="password1"><br><br>
+            <label for="city">City:</label>
+            <input type="text" id="city" name="city">
+            <label for="state">State (abbr.):</label>
+            <input type="text" id="state" name="state">
+            <button id="login1">Login</button>
+        </fieldset>
+        <fieldset id="Third_fieldset">
+            <legend>Existing User</legend>
+            <label for="username2">UserName:</label>
+            <input type="text" id="username2" name="username2">
+            <label for="password2">Password:</label>
+            <input type="text" id="password2" name="password2">
+            <button id="login2">Login</button>
+        </fieldset>
+    </body>
+    <script src="index.js"></script>
+</html>
